@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/x"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:layout_marginBottom="140dp"
+        android:gravity="center"
+        android:text="Click here to see Nearest ESIC Hospital"
+        android:textColor="#030001"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ch"
+        android:layout_width="127dp"
+        android:layout_height="81dp"
+        android:layout_gravity="center|top"
+        android:layout_marginBottom="39dp"
+
+        android:background="@drawable/e"
+        android:text="CHECK"
+        android:textColor="#fff"
+        android:textSize="28dp"
+
+        />
+
+</LinearLayout>
+</ScrollView>
+
+
+

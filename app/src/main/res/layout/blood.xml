@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00081a">
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/blood0"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donate Blood" />
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:id="@+id/organ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donate Organ" />
+</LinearLayout>

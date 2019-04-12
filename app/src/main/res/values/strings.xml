@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">"OURESIC"</string>
+    <string name="title_activity_implicit">Implicit</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_date">Date</string>
+    <string name="title_activity_final">Final</string>
+    <array name="genres">
+        <item>Rock</item>
+        <item>Sufi</item>
+        <item>Pop</item>
+        <item>Fok</item>
+    </array>
+</resources>

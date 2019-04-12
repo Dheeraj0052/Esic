@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00081a">
+
+    <TextView
+        android:layout_width="168dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+
+        android:text="Sign In As?"
+        android:textColor="#080401"
+        android:textSize="34dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126"
+        tools:ignore="MissingConstraints"
+        tools:textColor="@android:color/holo_orange_dark" />
+
+
+    <Button
+        android:id="@+id/btpatient"
+        android:layout_width="270dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:background="#85a3e0"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="PATIENT"
+        android:textColor="#080401"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <Button
+        android:id="@+id/btcounseller"
+        android:layout_width="270dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:background="#85a3e0"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="COUNSELOR"
+        android:textColor="#080401"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="221dp" />
+    <Button
+        android:id="@+id/partner"
+        android:layout_width="270dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:background="#85a3e0"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="PARTNER HOSPITAL"
+        android:textColor="#080401"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="221dp"/>
+    <Button
+        android:id="@+id/blood"
+        android:layout_width="270dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:background="#85a3e0"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="BLOOD AND ORGAN DEPARTMENT"
+        android:textColor="#080401"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="221dp"/>
+
+    <Button
+        android:id="@+id/requirement"
+        android:layout_width="270dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:background="#85a3e0"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="REQUIREMENT OF DOCTORS"
+        android:textColor="#080401"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="221dp"/>
+</LinearLayout>

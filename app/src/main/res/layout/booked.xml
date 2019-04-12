@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                              BOOKED APPONTMENTS MENU"/>
+    <EditText
+        android:id="@+id/ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER IP NO ONCE AGAIN"/>
+
+    <Button
+        android:layout_width="169dp"
+        android:id="@+id/med"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center"
+        android:background="#499bde"
+        android:text="Medicine" />
+
+    <Button
+        android:id="@+id/pae"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:background="#499bde"
+        android:text="Paediatric" />
+
+    <Button
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_gravity="center"
+        android:background="#499bde"
+        android:text="ORTHOPDRATIC"
+        android:id="@+id/ortho"/>
+    <Button
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_gravity="center"
+        android:background="#499bde"
+        android:text="Skin"
+        android:id="@+id/skin"/>
+
+    <ListView
+        android:id="@+id/listViewbooked"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

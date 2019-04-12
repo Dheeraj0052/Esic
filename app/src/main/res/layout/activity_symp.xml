@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<LinearLayout
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bachsih"
+    android:scrollbars="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You Are Suffering From?"
+        android:textStyle="italic"
+        android:textColor="#ba0b54"
+        android:layout_gravity="center"
+        android:textSize="24dp"
+        android:layout_marginTop="25dp"
+        />
+
+
+    <Button
+
+        android:id="@+id/fev"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_margin="50dp"
+        android:text="Mild Fever"
+        android:background="#499bde"/>
+
+
+    <Button
+        android:id="@+id/cold"
+        android:clickable="true"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:background="#499bde"
+        android:text="Cold and Cough" />
+
+    <Button
+        android:background="#499bde"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/dig"
+        android:text="Digestion"/>
+
+    <Button
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/head"
+        android:text="Head ache"
+        android:background="#499bde"
+
+        />
+    <Button
+        android:background="#499bde"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/other"
+        android:text="other"/>
+
+
+
+
+</LinearLayout>
+</ScrollView>

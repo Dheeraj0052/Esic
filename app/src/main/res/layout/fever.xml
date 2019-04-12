@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/abc">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:text="Prescription"
+        android:textColor="#b4c2f0"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:maxLines="10"
+
+
+        android:text=" 1.Drink plenty of fluids\n2.Rest\n3.Stay cool \n4.PCM(500gm adults,250gm infants"
+        android:textColor="#0a0501"
+        android:textStyle="bold"
+        android:textSize="21dp"
+
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="213dp"
+        android:layout_gravity="center|bottom"
+        android:layout_margin="25dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/fever"
+
+        />
+
+    <Button
+        android:layout_width="71dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginBottom="1dp"
+        android:background="#ba2e0b"
+        android:text="PRINT"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
+</ScrollView>

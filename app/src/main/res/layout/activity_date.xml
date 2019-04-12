@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Date">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="49dp"
+        android:text="Choose Date"
+        android:textColor="@color/browser_actions_text_color"
+        android:textSize="29dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/r"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_margin="75dp"
+        android:background="#5f91ed"
+        android:hint=" Date should be in dd/mm/yyyy..."
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay" />
+
+    <EditText
+        android:id="@+id/serch"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#5f91ed"
+        android:hint="Enter IP no AGAIN"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SUBMIT"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listViewArtists"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include layout="@layout/content_date" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</LinearLayout>
