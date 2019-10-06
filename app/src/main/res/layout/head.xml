@@ -2,12 +2,12 @@
 
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
 <LinearLayout
 
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -19,9 +19,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="30dp"
+        android:gravity="center"
+
         android:text="Prescription"
         android:textColor="#b4c2f0"
-        android:textSize="32dp"
+        android:textSize="35dp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="154dp"
@@ -33,7 +35,7 @@
         android:id="@+id/textView4"
         android:layout_width="314dp"
         android:layout_height="wrap_content"
-
+        android:layout_gravity="center"
 
         android:text=" 1.Drink plenty of fluids \n 2.Aspirin\n 3.Stay cool\n 4.PCM(500gm for adults ,
     250gm for infants)
@@ -53,18 +55,20 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:layout_width="314dp"
+        android:layout_width="251dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center|bottom"
         android:layout_margin="30dp"
+        android:outlineSpotShadowColor="@color/colorPrimary"
         android:src="@drawable/head" />
     <Button
         android:layout_width="71dp"
         android:layout_height="35dp"
-        android:layout_marginLeft="150dp"
+        android:layout_gravity="center"
         android:text="PRINT"
+        android:id="@+id/btnPrint"
         android:background="#ba2e0b"
-        android:textStyle="bold"
+
         android:textSize="20dp"/>
 </LinearLayout>
 </ScrollView>
